@@ -1,0 +1,41 @@
+.img-head{
+    width: 50px;
+    height: 50px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 3px solid;
+    background-color: rgb(30, 97, 156);
+}
+.img-card{
+    margin-top: 1em;
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+}
+.card-container-info{
+    width: 150px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: rgb(227, 192, 95);
+    border-radius: 10%;
+    border: 3px solid;
+    position: relative;
+    
+}
+.delete-buton{
+    width: 40px;
+    height: 20px;
+    right: 0%;
+    position: absolute;
+}
+.delete-img{
+    width: 15px;
+    height: 15px;
+
+}

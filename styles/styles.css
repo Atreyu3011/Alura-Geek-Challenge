@@ -1,0 +1,27 @@
+@import url("styles/header.css");
+@import url("styles/products.css");
+@import url("styles/card.css");
+@import url("styles/form.css");
+
+body{
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+.main-container{
+    display: flex;
+    position: relative;
+    background-color: blue;
+    border: 2px solid;
+    min-height: 700px;
+}
+.footer-container{
+    background-color:#ff3838;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 800;
+
+}

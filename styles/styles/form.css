@@ -1,0 +1,28 @@
+.form{
+    position: sticky;
+    right: 3%;
+    top: 0%;
+    line-height: 2;
+    background-color: rgb(238, 255, 0);
+    width: 30%;
+    height: 30%;
+    border: 2px solid;
+    border-radius: 10% 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.form-title{
+    font-size: 25px;
+    font-weight: 600;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+.form-input{
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 2.5em;
+    margin-bottom: 1.5em;
+}
